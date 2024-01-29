@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "allowJs": false,
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "noEmit": true,
+  },
+  "compileOnSave": true,
+}

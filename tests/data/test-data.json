@@ -1,0 +1,18 @@
+{
+  "loginPage": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "checkoutInformationPage": {
+    "firstName": "Kostiantyn",
+    "lastName": "Artemiev",
+    "postalCode": "15789-4321"
+  },
+  "checkoutCompletePage": {
+    "titlePage": "Checkout: Complete!"
+  },
+  "sortPricesLowToHigh": "Price (low to high)",
+  "sortPricesHighToLow": "Price (high to low)",
+  "sortProductsAZ": "Name (A to Z)",
+  "sortProductsZA": "Name (Z to A)"
+}

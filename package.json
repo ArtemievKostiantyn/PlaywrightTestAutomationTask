@@ -1,0 +1,44 @@
+{
+  "name": "playwright-framework",
+  "version": "1.0.0",
+  "description": "Playwright framework test task",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --project=chrome",
+    "test.firefox": "npx playwright test --project=firefox",
+    "lint": "npx eslint --ext .ts tests",
+    "postinstall": "npx playwright install"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:@typescript-eslint/stylistic"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "root": true
+  },
+  "author": "Artemiev Kostiantyn",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/eslint-parser": "^7.23.9",
+    "@playwright/test": "1.40.0",
+    "@types/node": "^16.18.38",
+    "@typescript-eslint/eslint-plugin": "6.19.1",
+    "@typescript-eslint/parser": "6.19.1",
+    "eslint": "8.56.0",
+    "prettier": "3.2.4",
+    "typescript": "5.3.3"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "4.5.2",
+    "casual": "1.6.2"
+  }
+}
