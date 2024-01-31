@@ -3,7 +3,7 @@
 ## Dependencies used
 
 - Playwright
-- Casual
+- Chai
 
 ### Prerequisites
 

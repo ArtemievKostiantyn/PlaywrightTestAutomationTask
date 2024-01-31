@@ -6,6 +6,7 @@
   "scripts": {
     "test": "npx playwright test --project=chrome",
     "test.firefox": "npx playwright test --project=firefox",
+    "playwright:ui": "npx playwright test --ui",
     "lint": "npx eslint --ext .ts tests",
     "postinstall": "npx playwright install"
   },
@@ -30,15 +31,15 @@
     "@babel/core": "^7.23.9",
     "@babel/eslint-parser": "^7.23.9",
     "@playwright/test": "1.40.0",
+    "@types/chai": "4.3.11",
+    "@types/chai-sorted": "0.2.3",
     "@types/node": "^16.18.38",
     "@typescript-eslint/eslint-plugin": "6.19.1",
     "@typescript-eslint/parser": "6.19.1",
+    "chai": "4.4.1",
+    "chai-sorted": "0.2.0",
     "eslint": "8.56.0",
     "prettier": "3.2.4",
     "typescript": "5.3.3"
-  },
-  "dependencies": {
-    "@axe-core/playwright": "4.5.2",
-    "casual": "1.6.2"
   }
 }
